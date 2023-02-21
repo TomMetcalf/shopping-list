@@ -98,14 +98,6 @@ function getItemsFromStorage() {
     return itemsFromStorage;
 }
 
-// function onClickItem(e) {
-//     if (e.target.parentElement.classList.contains('remove-item')) {
-//         removeItem(e.target.parentElement.parentElement);
-//     } else {
-//         setItemToEdit(e.target);
-//     }
-// }
-
 function onClickItem(e) {
     if (e.target.parentElement.classList.contains('remove-item')) {
         removeItem(e.target.parentElement.parentElement);
